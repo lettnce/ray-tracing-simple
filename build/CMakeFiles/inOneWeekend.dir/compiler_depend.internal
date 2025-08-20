@@ -141,5 +141,6 @@ CMakeFiles/inOneWeekend.dir/main.cpp.obj
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h
  Z:/Homework/C C++/ray tracer/color.h
+ Z:/Homework/C C++/ray tracer/ray.h
  Z:/Homework/C C++/ray tracer/vec3.h
 

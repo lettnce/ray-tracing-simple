@@ -140,6 +140,7 @@ CMakeFiles/inOneWeekend.dir/main.cpp.obj: Z:/Homework/C\ C++/ray\ tracer/main.cp
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
   Z:/Homework/C\ C++/ray\ tracer/color.h \
+  Z:/Homework/C\ C++/ray\ tracer/ray.h \
   Z:/Homework/C\ C++/ray\ tracer/vec3.h
 
 
@@ -378,6 +379,8 @@ C:/msys64/ucrt64/include/locale.h:
 C:/msys64/ucrt64/include/malloc.h:
 
 C:/msys64/ucrt64/include/process.h:
+
+Z:/Homework/C\ C++/ray\ tracer/ray.h:
 
 C:/msys64/ucrt64/include/pthread.h:
 
