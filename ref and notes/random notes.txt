@@ -15,3 +15,8 @@ ex: when a = 1.0 -> blue
 	
 blendedValue = (1 - a)*startValue + a*endValue;
 a from 0.0 -> 1.0
+
+abstract class: serves as a base class that defines common interactions that derived classes must implement
+instead of an array of spheres, its better to make an abstract class for anything a ray could hit,
+and make a sphere and a list of spheres objects that can be hit 
+the abstract class will have a function that takes in a ray, with a min and a max the intersection must fall between
