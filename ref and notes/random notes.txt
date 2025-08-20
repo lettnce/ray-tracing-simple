@@ -1,0 +1,17 @@
+
+rgb triplet(pixel) is produced in each iteration
+
+ray class implements the ray as a function and allows
+P, the position of the ray in 3D space, to change
+depending on A + tb, with A being the ray's origin
+and b being the direction. T is an arbitary scalar,
+however, for positive T, you get part of the ray
+above A, and vice versa (half-line).
+
+graphics trick to scale 0.0 <= a <= 1.0;
+ex: when a = 1.0 -> blue
+	when a = 0.0 -> white
+	between -> blend
+	
+blendedValue = (1 - a)*startValue + a*endValue;
+a from 0.0 -> 1.0
