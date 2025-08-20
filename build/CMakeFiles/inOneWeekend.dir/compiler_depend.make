@@ -63,6 +63,7 @@ CMakeFiles/inOneWeekend.dir/main.cpp.obj: Z:/Homework/C\ C++/ray\ tracer/main.cp
   C:/msys64/ucrt64/include/c++/14.2.0/cctype \
   C:/msys64/ucrt64/include/c++/14.2.0/cerrno \
   C:/msys64/ucrt64/include/c++/14.2.0/clocale \
+  C:/msys64/ucrt64/include/c++/14.2.0/cmath \
   C:/msys64/ucrt64/include/c++/14.2.0/cstdio \
   C:/msys64/ucrt64/include/c++/14.2.0/cstdlib \
   C:/msys64/ucrt64/include/c++/14.2.0/cwchar \
@@ -110,6 +111,7 @@ CMakeFiles/inOneWeekend.dir/main.cpp.obj: Z:/Homework/C\ C++/ray\ tracer/main.cp
   C:/msys64/ucrt64/include/limits.h \
   C:/msys64/ucrt64/include/locale.h \
   C:/msys64/ucrt64/include/malloc.h \
+  C:/msys64/ucrt64/include/math.h \
   C:/msys64/ucrt64/include/process.h \
   C:/msys64/ucrt64/include/pthread.h \
   C:/msys64/ucrt64/include/pthread_compat.h \
@@ -136,7 +138,9 @@ CMakeFiles/inOneWeekend.dir/main.cpp.obj: Z:/Homework/C\ C++/ray\ tracer/main.cp
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
+  Z:/Homework/C\ C++/ray\ tracer/color.h \
+  Z:/Homework/C\ C++/ray\ tracer/vec3.h
 
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/move.h:
@@ -159,7 +163,7 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/exception.h:
 
 C:/msys64/ucrt64/include/_mingw_stat64.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/cstdlib:
+Z:/Homework/C\ C++/ray\ tracer/color.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/ext/atomicity.h:
 
@@ -255,6 +259,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_construct.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream.tcc:
 
+C:/msys64/ucrt64/include/math.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/postypes.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/refwrap.h:
@@ -273,6 +279,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h:
 
+C:/msys64/ucrt64/include/c++/14.2.0/cmath:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_types.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf.tcc:
@@ -282,6 +290,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h:
 C:/msys64/ucrt64/include/c++/14.2.0/cctype:
 
 C:/msys64/ucrt64/include/c++/14.2.0/cerrno:
+
+C:/msys64/ucrt64/include/c++/14.2.0/cstdlib:
 
 C:/msys64/ucrt64/include/c++/14.2.0/cwchar:
 
@@ -410,3 +420,5 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h:
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h:
+
+Z:/Homework/C\ C++/ray\ tracer/vec3.h:

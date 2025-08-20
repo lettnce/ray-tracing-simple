@@ -64,6 +64,7 @@ CMakeFiles/inOneWeekend.dir/main.cpp.obj
  C:/msys64/ucrt64/include/c++/14.2.0/cctype
  C:/msys64/ucrt64/include/c++/14.2.0/cerrno
  C:/msys64/ucrt64/include/c++/14.2.0/clocale
+ C:/msys64/ucrt64/include/c++/14.2.0/cmath
  C:/msys64/ucrt64/include/c++/14.2.0/cstdio
  C:/msys64/ucrt64/include/c++/14.2.0/cstdlib
  C:/msys64/ucrt64/include/c++/14.2.0/cwchar
@@ -111,6 +112,7 @@ CMakeFiles/inOneWeekend.dir/main.cpp.obj
  C:/msys64/ucrt64/include/limits.h
  C:/msys64/ucrt64/include/locale.h
  C:/msys64/ucrt64/include/malloc.h
+ C:/msys64/ucrt64/include/math.h
  C:/msys64/ucrt64/include/process.h
  C:/msys64/ucrt64/include/pthread.h
  C:/msys64/ucrt64/include/pthread_compat.h
@@ -138,4 +140,6 @@ CMakeFiles/inOneWeekend.dir/main.cpp.obj
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h
+ Z:/Homework/C C++/ray tracer/color.h
+ Z:/Homework/C C++/ray tracer/vec3.h
 
