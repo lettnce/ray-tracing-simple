@@ -50,6 +50,8 @@ CMakeFiles/inOneWeekend.dir/main.cpp.obj: Z:/Homework/C\ C++/ray\ tracer/main.cp
   C:/msys64/ucrt64/include/c++/14.2.0/bits/postypes.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/predefined_ops.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/ptr_traits.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/random.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/random.tcc \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/range_access.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/refwrap.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h \
@@ -64,6 +66,7 @@ CMakeFiles/inOneWeekend.dir/main.cpp.obj: Z:/Homework/C\ C++/ray\ tracer/main.cp
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_types.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_numeric.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_tempbuf.h \
@@ -72,6 +75,7 @@ CMakeFiles/inOneWeekend.dir/main.cpp.obj: Z:/Homework/C\ C++/ray\ tracer/main.cp
   C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf.tcc \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf_iterator.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stringfwd.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/uniform_int_dist.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/unique_ptr.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/utility.h \
@@ -81,6 +85,7 @@ CMakeFiles/inOneWeekend.dir/main.cpp.obj: Z:/Homework/C\ C++/ray\ tracer/main.cp
   C:/msys64/ucrt64/include/c++/14.2.0/cerrno \
   C:/msys64/ucrt64/include/c++/14.2.0/clocale \
   C:/msys64/ucrt64/include/c++/14.2.0/cmath \
+  C:/msys64/ucrt64/include/c++/14.2.0/cstdint \
   C:/msys64/ucrt64/include/c++/14.2.0/cstdio \
   C:/msys64/ucrt64/include/c++/14.2.0/cstdlib \
   C:/msys64/ucrt64/include/c++/14.2.0/cwchar \
@@ -103,7 +108,9 @@ CMakeFiles/inOneWeekend.dir/main.cpp.obj: Z:/Homework/C\ C++/ray\ tracer/main.cp
   C:/msys64/ucrt64/include/c++/14.2.0/limits \
   C:/msys64/ucrt64/include/c++/14.2.0/memory \
   C:/msys64/ucrt64/include/c++/14.2.0/new \
+  C:/msys64/ucrt64/include/c++/14.2.0/numeric \
   C:/msys64/ucrt64/include/c++/14.2.0/ostream \
+  C:/msys64/ucrt64/include/c++/14.2.0/random \
   C:/msys64/ucrt64/include/c++/14.2.0/stdexcept \
   C:/msys64/ucrt64/include/c++/14.2.0/stdlib.h \
   C:/msys64/ucrt64/include/c++/14.2.0/streambuf \
@@ -123,6 +130,7 @@ CMakeFiles/inOneWeekend.dir/main.cpp.obj: Z:/Homework/C\ C++/ray\ tracer/main.cp
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/error_constants.h \
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/opt_random.h \
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
   C:/msys64/ucrt64/include/corecrt.h \
   C:/msys64/ucrt64/include/corecrt_startup.h \
@@ -159,14 +167,21 @@ CMakeFiles/inOneWeekend.dir/main.cpp.obj: Z:/Homework/C\ C++/ray\ tracer/main.cp
   C:/msys64/ucrt64/include/vadefs.h \
   C:/msys64/ucrt64/include/wchar.h \
   C:/msys64/ucrt64/include/wctype.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pmmintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h \
+  Z:/Homework/C\ C++/ray\ tracer/camera.h \
   Z:/Homework/C\ C++/ray\ tracer/color.h \
   Z:/Homework/C\ C++/ray\ tracer/hittable.h \
   Z:/Homework/C\ C++/ray\ tracer/hittable_list.h \
+  Z:/Homework/C\ C++/ray\ tracer/interval.h \
   Z:/Homework/C\ C++/ray\ tracer/ray.h \
   Z:/Homework/C\ C++/ray\ tracer/rtweekend.h \
   Z:/Homework/C\ C++/ray\ tracer/sphere.h \
@@ -235,9 +250,9 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/nested_exception.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_construct.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_base.h:
+C:/msys64/ucrt64/include/c++/14.2.0/bits/random.tcc:
 
-C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h:
+C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_base.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/ptr_traits.h:
 
@@ -252,6 +267,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.tcc:
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h:
 
 C:/msys64/ucrt64/include/stdio.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/numeric:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/range_access.h:
 
@@ -311,6 +328,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/limits:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/postypes.h:
 
+C:/msys64/ucrt64/include/c++/14.2.0/bits/random.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/refwrap.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h:
@@ -329,6 +348,10 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_types.h:
 
+C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_numeric.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_pair.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_raw_storage_iter.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_tempbuf.h:
@@ -340,6 +363,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_vector.h:
 C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf.tcc:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stringfwd.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/uniform_int_dist.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/unique_ptr.h:
 
@@ -358,6 +383,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/cerrno:
 C:/msys64/ucrt64/include/c++/14.2.0/clocale:
 
 C:/msys64/ucrt64/include/c++/14.2.0/cmath:
+
+C:/msys64/ucrt64/include/c++/14.2.0/cstdint:
 
 C:/msys64/ucrt64/include/c++/14.2.0/cstdio:
 
@@ -401,6 +428,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/atomic_word.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/ostream:
 
+C:/msys64/ucrt64/include/c++/14.2.0/random:
+
 C:/msys64/ucrt64/include/c++/14.2.0/stdexcept:
 
 C:/msys64/ucrt64/include/c++/14.2.0/stdlib.h:
@@ -438,6 +467,10 @@ C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/error_constants.h:
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr.h:
+
+C:/msys64/ucrt64/include/sec_api/wchar_s.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/opt_random.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h:
 
@@ -481,8 +514,6 @@ C:/msys64/ucrt64/include/sec_api/stdlib_s.h:
 
 C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h:
 
-C:/msys64/ucrt64/include/sec_api/wchar_s.h:
-
 C:/msys64/ucrt64/include/signal.h:
 
 C:/msys64/ucrt64/include/stddef.h:
@@ -497,9 +528,17 @@ C:/msys64/ucrt64/include/time.h:
 
 C:/msys64/ucrt64/include/vadefs.h:
 
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pmmintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h:
 
@@ -507,7 +546,13 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h:
 
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h:
+
+Z:/Homework/C\ C++/ray\ tracer/camera.h:
+
 Z:/Homework/C\ C++/ray\ tracer/hittable_list.h:
+
+Z:/Homework/C\ C++/ray\ tracer/interval.h:
 
 Z:/Homework/C\ C++/ray\ tracer/sphere.h:
 
