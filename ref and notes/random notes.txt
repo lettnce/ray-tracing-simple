@@ -44,3 +44,18 @@ if it's negative, then it's incorrect (inside the sphere) and we need to invert 
 if a ray bounces off an object and keeps 100% of its color, then we say its white.
 if a ray bounces off an object and keeps 0% of its color, then we say its black.
 therefore, we can imagine a ray with 50% color must be gray. (first implementation)
+
+ray_color is recursive and only ends if the ray hits an object, but in the case the ray never hits anything, it will recurse infinitely.
+implement a safeguard: a maximum recursion depth which returns no light when it's hit.
+all i did was add an extra parameter (depth) in ray_color and wrote an if statement that returns no color if depth is <= 0 as the safeguard.
+
+shadow acne is a term that describes a bug in which a ray will attempt to accurately calculate the intersection point when it intersects an object.
+the calculation is susceptible to floating point rounding errors, so we need to change the argument in the world.hit if statement in ray_color to ignore hits that are very close to the intersection point.
+if (world.hit(r, interval(0.001, <--- infinity), rec)) 
+
+the more accurate diffusion model is the Lambertian distribution: rays reflected are scattered in a matter that is proportional to cos(theta), with theta being the angle between the reflected ray and the surface norm.
+a ray is more likely to be reflected near the surface norm and less likely to be scattered in directions away from the norm
+
+the computer assumes the image we're outputting is gamma corrected, so its applying some transform to the 0 to 1 values before being stored as bytes.
+images with data that are written without being transformed are said to be in linear space, while the transformed ones are in gamma space. the image we're producing is in linear space so we must transform it.
+
