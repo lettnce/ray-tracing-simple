@@ -156,6 +156,7 @@ CMakeFiles/inOneWeekend.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/backward/auto_ptr.h \
  Z:\Homework\C\ C++\ray\ tracer\color.h \
  Z:\Homework\C\ C++\ray\ tracer\vec3.h \
+ Z:\Homework\C\ C++\ray\ tracer\interval.h \
  Z:\Homework\C\ C++\ray\ tracer\ray.h \
  Z:\Homework\C\ C++\ray\ tracer\hittable.h \
  Z:\Homework\C\ C++\ray\ tracer\hittable_list.h \
