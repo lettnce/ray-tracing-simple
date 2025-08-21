@@ -20,3 +20,27 @@ abstract class: serves as a base class that defines common interactions that der
 instead of an array of spheres, its better to make an abstract class for anything a ray could hit,
 and make a sphere and a list of spheres objects that can be hit 
 the abstract class will have a function that takes in a ray, with a min and a max the intersection must fall between
+
+diffuse objects randomly redirect light rays that have hit them, or might be absorbed: the darker, the likelier it is to be absorbed (thats why dark objects are dark)
+for diffusion in rendering, we will start with the assumption that the light has an equal chance of being reflected in any direction
+first implement random vector generation
+
+we need to manipulate a random vector to guarantee it lies on the surface of the object, but the conventional method is complicated and difficult to implement
+instead a "rejection method" is used. a rejection method means that we continue calculation until the desired output is obtained. so vectors will be randomly generated until a
+sample is produced that is on the surface of a hemisphere.
+
+*in conjunction with diffusion diagram
+we first use the rejection method to generate a random vector that lies inside a circle that lies inside a sphere by choosing a point within it [-1, +1].
+if the point lies outside the circle then we reject that vector and generate a new one until one is found that satisfies our requirement.
+
+we then normalize it so that it lies on the circumference (or surface in a 3D context) of our circle by using the unit vector formula
+
+in our function, there is a potential floating-point abstraction leak: if the three coordinates are near enough to the center of the circle, the small value will underflow to zero when squared
+the vector will be normalized to infinite values. to fix, we create a "black hole" around the center that points will be rejected from (64-bit floats [double precision]): values greater than 10^-160
+
+we then take the accepted vector and compare it to the surface's norm to determine whether it's on the correct hemisphere. if the value returns positive, then it's correct (outside the sphere)
+if it's negative, then it's incorrect (inside the sphere) and we need to invert the vector.
+
+if a ray bounces off an object and keeps 100% of its color, then we say its white.
+if a ray bounces off an object and keeps 0% of its color, then we say its black.
+therefore, we can imagine a ray with 50% color must be gray. (first implementation)
